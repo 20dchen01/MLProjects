@@ -1,0 +1,114 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/W32TeX)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: bare_conf.aux
+The style file: IEEEtran.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: biblio2.bib.bib
+Repeated entry---line 166 of file biblio2.bib.bib
+ : @article{Azar2012
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 633 of file biblio2.bib.bib
+ : @article{Dong2009a
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 649 of file biblio2.bib.bib
+ : @article{Dong2009a
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 672 of file biblio2.bib.bib
+ : @article{Dong2010b
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 686 of file biblio2.bib.bib
+ : @article{Dong2010b
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2166 of file biblio2.bib.bib
+ : @article{Page2008
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2191 of file biblio2.bib.bib
+ : @article{Page2008
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2353 of file biblio2.bib.bib
+ : @article{Rabiner1989
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2376 of file biblio2.bib.bib
+ : @article{Rabiner1989
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2564 of file biblio2.bib.bib
+ : @article{Si2005
+ :                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2580 of file biblio2.bib.bib
+ : @article{Si2005
+ :                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3365 of file biblio2.bib.bib
+ : @inproceedings{Yu2010
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3379 of file biblio2.bib.bib
+ : @inproceedings{Yu2010
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3484 of file biblio2.bib.bib
+ : @article{Yu2010
+ :                ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "Teixeira2011"
+-- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+
+Done.
+You've used 17 entries,
+            4087 wiz_defined-function locations,
+            952 strings with 11778 characters,
+and the built_in function-call counts, 14457 in all, are:
+= -- 1214
+> -- 355
+< -- 138
++ -- 196
+- -- 58
+* -- 736
+:= -- 2210
+add.period$ -- 35
+call.type$ -- 17
+change.case$ -- 17
+chr.to.int$ -- 324
+cite$ -- 17
+duplicate$ -- 990
+empty$ -- 1031
+format.name$ -- 73
+if$ -- 3322
+int.to.chr$ -- 0
+int.to.str$ -- 17
+missing$ -- 160
+newline$ -- 92
+num.names$ -- 17
+pop$ -- 342
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 2
+skip$ -- 1099
+stack$ -- 0
+substring$ -- 773
+swap$ -- 866
+text.length$ -- 30
+text.prefix$ -- 0
+top$ -- 5
+type$ -- 17
+warning$ -- 0
+while$ -- 69
+width$ -- 19
+write$ -- 215
+(There were 14 error messages)
