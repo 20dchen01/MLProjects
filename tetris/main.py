@@ -163,7 +163,7 @@ def create_grid(locked_positions={}):
     return grid
 
 def convert_shape_format(shape):
-    
+    pass
 
 def valid_space(shape, grid):
     pass
@@ -180,10 +180,27 @@ def draw_text_middle(text, size, color, surface):
     pass
    
 def draw_grid(surface, row, col):
+    
+# This function draws the grey grid lines that we see
+    sx = top_left_x
+    sy = top_left_y
+    for i in range(row):
+        pygame.draw.line(surface, (128,128,128), (sx, sy+ i*30), (sx + play_width, sy + i * 30))  # horizontal lines
+        for j in range(col):
+            pygame.draw.line(surface, (128,128,128), (sx + j * 30, sy), (sx + j * 30, sy + play_height))  # vertical lines
+    
+
+def clear_rows(grid, locked):
+    pass
+
+def draw_next_shape(shape, surface):
+    pass
+
+def draw_window(surface):
     surface.fill((0,0,0))
     # Tetris Title
-    font = pygame.font.SysFont(\'comicsans\', 60)
-    label = font.render(\'TETRIS\', 1, (255,255,255))
+    font = pygame.font.SysFont("comicsans", 60)
+    label = font.render("TETRIS", 1, (255,255,255))
  
     surface.blit(label, (top_left_x + play_width / 2 - (label.get_width() / 2), 30))
  
@@ -195,15 +212,6 @@ def draw_grid(surface, row, col):
     draw_grid(surface, 20, 10)
     pygame.draw.rect(surface, (255, 0, 0), (top_left_x, top_left_y, play_width, play_height), 5)
     pygame.display.update()
-
-def clear_rows(grid, locked):
-    pass
-
-def draw_next_shape(shape, surface):
-    pass
-
-def draw_window(surface):
-    pass
 
 def main():
     global grid
@@ -254,5 +262,5 @@ def main_menu():
 
 main_menu()  # start game
 win = pygame.display.set_mode((s_width, s_height))
-pygame.display.set_caption(\'Tetris\')
+pygame.display.set_caption("Tetris")
 main()
